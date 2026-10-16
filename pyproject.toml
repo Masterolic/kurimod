@@ -1,6 +1,6 @@
 [project]
 name = "kurimod"
-version = "3.3.1"
+version = "3.3.2"
 description = "Kurimod: pyromod fork targeting the Kurigram (Pyrogram) client with conversation helpers"
 authors = [
     { name = "Pauxis", email = "pauxiscezar@gmail.com" }
@@ -10,6 +10,14 @@ dependencies = [
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
 
 [build-system]
 requires = ["hatchling"]
