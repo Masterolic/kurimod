@@ -133,7 +133,7 @@ class Client(pyrogram.client.Client):
             inline_message_id=inline_message_id,
         )
 
-        loop = asyncio.get_event_loop()
+        loop = asyncio.get_running_loop()
         future = loop.create_future()
 
         listener = Listener(
